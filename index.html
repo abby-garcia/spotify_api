@@ -25,16 +25,20 @@
 <!-- Instructions -->
   <section class="instructions">
       <h3> Search your favorite artists and we'll find you your next favorite artists </h3>
-      <input type="text" name="artist" autofocus>
-      <input type="submit" name="firstname">
+
+      <form id ="search-term">
+         <input type="text" id="query" name="artist" autofocus>
+         <input type="submit" name="firstname">
+      </form>   
 
   </section>  
 
 <!-- New Artists -->
-  <section class=" hidden artists">
+  <section class=" hidden newArtists">
     <ul class="result"> 
       <li class="name"> </li>
       <li class="picture"> </li>
+      <li class="link"> </li>
     </ul>  
   </section>  
 
