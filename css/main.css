@@ -11,14 +11,17 @@
 	font-family: 'Comfortaa', cursive;
 }
 
-
-
-
-
-
-.hidden{
-	display: none;
+.picture{
+	width: 100px;
 }
+
+
+
+
+
+/*.hidden{
+	display: none;
+}*/
 
 
 
