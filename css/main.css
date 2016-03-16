@@ -1,3 +1,9 @@
+body{
+	text-align: center;
+	background-color: #FFCBA4;
+/*	padding:10em;
+*/}
+
 .title h1{
 	size: 60px;
 	text-align: center;
@@ -6,19 +12,34 @@
 
 }
 
+.fa-headphones{
+	color:#E56717;
+}
+
 .instructions{
 	text-align: center;
 	font-family: 'Comfortaa', cursive;
 }
 
 .picture{
-	width: 100px;
+	width: 200px;
+	display: block;
+	margin-left: 40%;
 }
 
+li{
+	list-style: none;
+	}
 
+.name{
+	font-size:25px;
+	font-family: 'Comfortaa', cursive;
+}
 
-
-
+.link{
+	font-family: 'Comfortaa', cursive;
+	font-size:20px;
+}
 /*.hidden{
 	display: none;
 }*/

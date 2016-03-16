@@ -55,7 +55,7 @@ function showInfo(results){ // I think i'm the most stuck here
 		var artist_link = results[key].external_urls.spotify;
 
 	    html += '<ul class="result"><li class="name">' + artist_name + '</li>';
-	    html += '<li class="picture"><img src="' + artist_picture + '" width="100px"/></li>';
+	    html += '<li class="picture"><img src="' + artist_picture + '" width="200px"/></li>';
 	    html += '<li class="link"><a href="' + artist_link + '">Listen Now</a></li></ul>';
 	    
  });
